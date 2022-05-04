@@ -1,0 +1,16 @@
+
+* {
+    box-sizing: border-box;
+  }
+.carousel-inner img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+#carouselExampleControls{
+    height: 600px;
+    width: 100%;
+}

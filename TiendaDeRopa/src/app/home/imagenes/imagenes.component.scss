@@ -1,0 +1,13 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+.card{
+    margin-left: 3px;
+    width: 30%;
+    border: solid 2px black;
+}

@@ -1,0 +1,20 @@
+<div class="container">
+    <input class="btn boton_port cartas" type="button" value="Todo">
+    <input class="btn boton_port cartas" type="button" value="Zapatillas negras">
+    <input class="btn boton_port cartas" type="button" value="Zapatillas blancas">
+  </div>
+<div class="container contenedor">
+  <div class="card" style="width: 18rem" *ngFor="let x of articulos">
+    <a  class="btn " (click)="pulsarBoton()">  <img [src]="x.getImagen()" class="card-img-top" alt="imagen zapa {{x.getNombre()}}" /></a>
+    <div class="card-body">
+      <h5 class="card-title">{{x.getNombre()}}</h5>
+      <p class="card-text">
+        {{x.getDescripcion()}}
+      </p>
+      <p class="card-text">
+        {{x.getPrecio() | number :'1.0-2':'es-ES'}}€
+      </p>
+    </div>
+  </div>
+</div>
+

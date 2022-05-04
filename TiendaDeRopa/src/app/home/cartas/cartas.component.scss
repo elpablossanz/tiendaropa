@@ -1,0 +1,16 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cartas{
+    background-color: black;
+    margin: 10px;
+    color: white;
+}
+.card{
+    margin-left: 3px;
+    width: 30%;
+    border: solid 2px black;
+}

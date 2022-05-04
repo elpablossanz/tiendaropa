@@ -1,0 +1,6 @@
+
+<div class="container contenedor">
+  <div class="card" style="width: 18rem" *ngFor="let x of articulos">
+    <a  class="imga">  <img [src]="x.getImagen()" class="card-img-top" alt="imagen zapa {{x.getNombre()}}" /></a>
+  </div>
+</div>
